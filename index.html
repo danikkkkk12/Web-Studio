@@ -5,15 +5,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WebStudio</title>
+  <!-- normalize -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <!-- css -->
   <link rel="stylesheet" href="./style/reset.css">
-
+  <link rel="stylesheet" href="./style/main.css">
 </head>
 
 <body>
-
+  <header class="header">
+    <div class="container flex wrapper_header">
+      <a href="index.html" class="header-logo"><span class="header-span">Web</span>Studio</a>
+      <nav class="nav_bar flex">
+        <ul class="header-list flex">
+          <li class="nav_bar_item"><a href="#" class="header_active">Студія</a></li>
+          <li class="nav_bar_item"><a href="#" class="nav_bar_link">Портфоліо</a></li>
+          <li class="nav_bar_item"><a href="#" class="nav_bar_link">Контакти</a></li>
+        </ul>
+        <ul class="header_list_contacts flex">
+          <li class="header_item_contacts"><a href="mailto:info@devstudio.com"
+              class="header_contacts_mail">mailto:info@devstudio.com</a></li>
+          <li class="header_item_contacts"><a href="tel:+380961111111" class="header_contacts_telephone">+38 096 111 11
+              11</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 </body>
 
 </html>
