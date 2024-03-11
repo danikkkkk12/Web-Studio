@@ -6,7 +6,6 @@
   --section-color: #F5F4FA;
   --logo-color: #ffffff99;
   --white-color: #fff;
-  --main-background-color: #212121;
   --team-last-color: #000000;
   /* fonts */
   --roboto-fonts: 'Roboto', sans-serif;
@@ -93,6 +92,7 @@
   letter-spacing: 0.28px;
   line-height: 136%;
 }
+
 /*------------------------------------------------------------ main ------------------------------------------------------------*/
 .section_busines {
   background-image: url(/images/8.jpg);
@@ -148,6 +148,10 @@
   margin-top: 94px;
   margin-bottom: 94px;
   margin-left: 145px;
+}
+
+.info_image_list {
+  margin-bottom: 30px;
 }
 
 .info-item {
@@ -224,6 +228,16 @@
 
 .cards-people {
   gap: 30px;
+}
+
+.client_caption {
+  color: var(--main-color);
+  font-family: var(--roboto-fonts);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 3%;
+  text-align: center;
 }
 
 /*------------------------------------------------------------ footer ------------------------------------------------------------*/
