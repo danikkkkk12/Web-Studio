@@ -95,8 +95,8 @@
 
 /*------------------------------------------------------------ main ------------------------------------------------------------*/
 .section_busines {
-  background-image: url(images/8.jpg);
-  width: 1473px;
+  background-image: url(/images/8.jpg);
+  width: 1519px;
   height: 600px;
 }
 
@@ -230,10 +230,6 @@
   gap: 30px;
 }
 .wrapper_people_icon{
-  /* margin-top: -16px;
-  margin-bottom: 30px;
-  margin-right: 32px;
-  margin-left: 32px; */
   margin: -16px 32px 30px 32px;
 }
 
@@ -255,7 +251,7 @@
 /*------------------------------------------------------------ footer ------------------------------------------------------------*/
 .footer {
   background-color: var(--background-color);
-  width: 1473px;
+  width: 1519px;
 }
 
 .footer_address {
