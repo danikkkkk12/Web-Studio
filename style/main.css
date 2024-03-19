@@ -95,7 +95,7 @@
 
 /*------------------------------------------------------------ main ------------------------------------------------------------*/
 .section_busines {
-  background-image: url(/images/8.jpg);
+  background-image: url(../images/8.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
