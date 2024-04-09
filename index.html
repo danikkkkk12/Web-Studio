@@ -18,6 +18,9 @@
   <!-- css -->
   <link rel="stylesheet" href="./style/reset.css">
   <link rel="stylesheet" href="./style/main.css">
+  <!-- modal -->
+  <link rel="stylesheet" href="../pages/modal.html">
+  <link rel="stylesheet" href="../style/pages-style/modal.css">
 </head>
 
 <body>
@@ -39,7 +42,7 @@
             <img src="images/telephone.svg" alt="telephone">
             <a href="tel:+380961111111" class="header_contacts_link">+38 096 111 11
               11</a>
-            </li>
+          </li>
         </ul>
       </nav>
     </div>
@@ -53,7 +56,46 @@
         <h2 class="subject">для вашого бізнесу</h2>
       </ul>
       <div class="main_btn_wrapper">
-        <h2 class="title_btn_wrapper"><button type="button" class="button">Замовити послугу</button></h2>
+        <h2 class="title_btn_wrapper"><button type="button" class="button btn-open" data-modal-open>Замовити
+            послугу</button>
+        </h2>
+      </div>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <img src="images/close.svg" alt="close" data-modal-close class="btn_close">
+          <h2 class="title-modal-window">Залиште свої дані, ми вам передзвонимо</h2>
+          <form class="input_modal_window">
+            <div class="wrapper_input_modal">
+              <p class="paragraph_name_modal_window">Ім'я</p>
+              <img src="images/boy-modal.svg" alt="boy_modal" class="icon_modal_window">
+              <input for="name" class="input_label_modal"></input>
+            </div>
+            <div class="wrapper_input_modal">
+              <p class="paragraph_name_modal_window">Телефон</p>
+              <img src="images/phone-modal.svg" alt="boy_modal" class="icon_modal_window">
+              <input for="telephone" class="input_label_modal modal_telephone"></input>
+            </div>
+            <div class="wrapper_input_modal">
+              <p class="paragraph_name_modal_window">Пошта</p>
+              <img src="images/email-modal.svg" alt="boy_modal" class="icon_modal_window">
+              <input for="email" class="input_label_modal modal_email" ></input>
+            </div>
+            <div class="wrapper_input_modal">
+              <p class="paragraph_name_modal_window">Коментар</p>
+              <textarea required="" name="textarea" id="textarea" cols="50" rows="10"></textarea>
+            </div>
+            <label class="cl-checkbox">
+              <div class="paragraph_modal_wrapper">
+                <p class="paragraph_checkbox">Погоджуюся з розсилкою та приймаю <a class="modal_window_link" href="index.html">Умови договору</a></p>
+              </div>
+              <input type="checkbox">
+              <span></span>
+            </label>
+            <div class="button_modal_wrapper">
+              <button class="btn_modal_window" type="submit">Відправити</button>
+            </div>
+          </form>
+        </div>
       </div>
     </section>
     <section class="info-work">
@@ -110,7 +152,7 @@
             <h3 class="name-people">Ігор Дем'яненко</h3>
             <p class="paragraph-people">Product Designer</p>
             <div class="wrapper_people_icon">
-              <img src="images/instagram.svg" alt="instagram" >
+              <img src="images/instagram.svg" alt="instagram">
               <img src="images/twitter.svg" alt="twitter">
               <img src="images/facebook.svg" alt="facebook">
               <img src="images/linkedIn.svg" alt="linkedIn">
@@ -199,6 +241,7 @@
       </ul>
     </div>
   </footer>
+  <script src=".//modal.js"></script>
 </body>
 
 </html>
