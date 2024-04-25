@@ -61,7 +61,9 @@
   line-height: normal;
   letter-spacing: 0.28px;
 }
-
+.image_header:hover{
+  color: var(--accent-color);
+}
 .header_contacts_link:hover {
   color: var(--accent-color);
   font-family: var(--roboto-fonts);
